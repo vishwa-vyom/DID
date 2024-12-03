@@ -14,7 +14,7 @@
             "type": "Ed25519VerificationKey2020",
             "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
             "controller": "did:web:vishwa-vyom.github.io:DID:resolve:dev1",
-            "publicKeyMultibase": "z6Mko5BkxLS2CMotBg8dLniZGpzFTUKjswp4N3NB3s34UXz6"
+            "publicKeyMultibase": "z6MktwAJhFN5fDccQ8k1nDtcTAhaW6YuvVcV5xmjKXH9E6zi"
         }
     ],
     "authentication": [
