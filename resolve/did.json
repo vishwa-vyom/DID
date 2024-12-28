@@ -1,26 +1,28 @@
 {
-    "@context": [
-        "https://www.w3.org/ns/did/v1"
-    ],
-    "id": "did:web:vishwa-vyom.github.io:DID:resolve",
-    "alsoKnownAs": [
-        "testUUID",
-        "test@gmail.com"
-    ],
-    "service": [],
-    "verificationMethod": [
-        {
-            "id": "did:web:vishwa-vyom.github.io:DID:resolve#key-0",
-            "type": "Ed25519VerificationKey2020",
-            "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
-            "controller": "did:web:vishwa-vyom.github.io:DID:resolve",
-            "publicKeyMultibase": "z6Mkg5i4sy8gRQmc6XEuTLRZJAu2mSrJg99hhtqdn4naiXkz"
-        }
-    ],
-    "authentication": [
-        "did:web:vishwa-vyom.github.io:DID:resolve#key-0"
-    ],
-    "assertionMethod": [
-        "did:web:vishwa-vyom.github.io:DID:resolve#key-0"
-    ]
+  "assertionMethod": [
+    "did:web:vishwa-vyom.github.io:DID:resolve#key-0"
+  ],
+  "service": [],
+  "id": "did:web:vishwa-vyom.github.io:DID:resolve",
+  "verificationMethod": [
+    {
+      "controller": "did:web:vishwa-vyom.github.io:DID:resolve",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "e": "AQAB",
+        "kid": "key-0",
+        "n": "vi7_C6yAwhc8s9L9xeQr0UMrxhmIHahrLpTwq_xBDHQJonH5jBbk_flBhyf2-Q7wSXuJ0qzZcq_o_nX4HbbmkGwS2NRcHi6Rjc37L2gUjyeoyF2kXxYzJWaSbPyqU3tlWsV5lqk_jiyadR68wf9woq4kjQ2dMRU1ADEbehXRz6B6UiksiQH3yl9lgeFQEPTMpzGN9RbxXWaTTFCMItOAEUr7PQNQBht9Ydz30cs69pO5-R896UCR_6GoTYkCCK3KSEr31WoWG-qW8sjyRZPJrhnu9BDkGPDa_kFCXIYpAm7QArZ37UNXHQgrDXWnWMERUAPjWv65UotW5BSy46oBEQ"
+      },
+      "id": "did:web:vishwa-vyom.github.io:DID:resolve#key-0",
+      "type": "JsonWebKey2020",
+      "@context": "https://w3id.org/security/suites/jws-2020/v1"
+    }
+  ],
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "alsoKnownAs": [],
+  "authentication": [
+    "did:web:vishwa-vyom.github.io:DID:resolve#key-0"
+  ]
 }
