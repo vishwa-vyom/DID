@@ -6,7 +6,7 @@
   "id": "did:web:vishwa-vyom.github.io:DID:resolve",
   "verificationMethod": [
     {
-      "publicKeyMultibase": "z6Mkh2zhzpmTfRa3Z5RmSF4GYKF1nmGjn9QL4Up18L48S8cn",
+      "publicKeyMultibase": "z6MkwKtpr9wXh6pki1syDRJux41MSJun5LkKTLiHnmoEVBZK",
       "controller": "did:web:vishwa-vyom.github.io:DID:resolve",
       "id": "did:web:vishwa-vyom.github.io:DID:resolve#key-0",
       "type": "Ed25519VerificationKey2020",
