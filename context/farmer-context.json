@@ -35,7 +35,7 @@
 
     "farmerId": "schema:identifier",
     "phoneNumber": "schema:telephone",
-    "dateOfBirth": { "@id": "schema:birthDate", "@type": "xsd:date" },
+    "dateOfBirth": { "@id": "schema:birthDate" },
 
     "address": "schema:address",
     "village": "schema:addressLocality",
@@ -44,7 +44,7 @@
     
     "primaryCommodity": "farmer:primaryCommodity",
     "totalLandArea": "farmer:totalLandArea",
-    "value": { "@id": "schema:value", "@type": "xsd:decimal" },
+    "value": { "@id": "schema:value" },
     "unit": "schema:unitText",
     "ownershipType": "farmer:ownershipType",
 
