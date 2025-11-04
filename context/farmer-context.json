@@ -10,7 +10,6 @@
 
     "FarmerCredential": "farmer:FarmerCredential",
     "farm": "schema:owns",
-    "crops": "farmer:hasCrop",
     "PostalAddress": "schema:PostalAddress",
 
     "authority": "farmer:authority",
