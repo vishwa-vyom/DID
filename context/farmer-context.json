@@ -9,7 +9,8 @@
     "type": "@type",
 
     "FarmerCredential": "farmer:FarmerCredential",
-    "farm": {"@id": "schema:owns", "@type": "farmer:Farm"},
+    "Farm": "farmer:Farm"
+    "farm": {"@id": "schema:owns"},
     "PostalAddress": "schema:PostalAddress",
 
     "authority": "farmer:authority",
