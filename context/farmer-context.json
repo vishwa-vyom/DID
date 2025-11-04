@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "farmer": "https://piyush7034.github.io/context-schema/multilang-credential-context.json#",
+
+    "id": "@id",
+    "type": "@type",
+
+    "FarmerCredential": "farmer:FarmerCredential",
+    "Farm": "schema:owns",
+    "Crop": "farmer:hasCrop",
+    "PostalAddress": "schema:PostalAddress",
+
+    "authority": "farmer:authority",
+    "idType": "farmer:idType",
+
+    "fullName": {
+      "@id": "schema:name",
+      "@container": "@set",
+      "@context": {
+        "language": "@language",
+        "value": "@value"
+      }
+    },
+    "gender": {
+      "@id": "schema:gender",
+      "@container": "@set",
+      "@context": {
+        "language": "@language",
+        "value": "@value"
+      }
+    },
+
+    "farmerId": "schema:identifier",
+    "phoneNumber": "schema:telephone",
+    "dateOfBirth": { "@id": "schema:birthDate", "@type": "xsd:date" },
+
+    "address": "schema:address",
+    "village": "schema:addressLocality",
+    "district": "farmer:addressDistrict",
+    "state": "schema:addressRegion",
+    
+    "primaryCommodity": "farmer:primaryCommodity",
+    "totalLandArea": "farmer:totalLandArea",
+    "value": { "@id": "schema:value", "@type": "xsd:decimal" },
+    "unit": "schema:unitText",
+    "ownershipType": "farmer:ownershipType",
+
+    "crops": { "@id": "farmer:hasCrops", "@container": "@set" },
+    "cropName": "schema:name",
+    "season": "farmer:season"
+  }
+}
