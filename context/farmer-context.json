@@ -9,7 +9,8 @@
     "type": "@type",
 
     "FarmerCredential": "farmer:FarmerCredential",
-    "farm": "schema:owns",
+    "Farm": "farmer:Farm",
+    "farm": {"@id": "schema:owns", "type": "Farm"},
     "PostalAddress": "schema:PostalAddress",
 
     "authority": "farmer:authority",
@@ -47,7 +48,7 @@
     "unit": "schema:unitText",
     "ownershipType": "farmer:ownershipType",
 
-    "crops": { "@id": "farmer:hasCrops", "@container": "@set" },
+    "crops": { "@id": "farmer:hasCrop", "@container": "@set" },
     "cropName": "schema:name",
     "season": "farmer:season"
   }
